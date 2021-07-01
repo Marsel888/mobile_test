@@ -1324,13 +1324,6 @@ address {
   padding-left: 40px;
   padding-top: 60px;
   margin: 0;
-  display: none;
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .moile-menu-social-link {
-    display: inline-block;
-  }
 }
 
 .moile-menu-social-link__item:not(:first-child) {

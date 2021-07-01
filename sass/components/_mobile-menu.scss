@@ -65,6 +65,8 @@ display: none;
   margin-top: 32px;
 }
 
+
+
 .moile-menu-social-link{
   display: flex;
  padding-left: 40px;
@@ -72,10 +74,8 @@ display: none;
  
   margin: 0;
  
-  display: none;
-  @media screen and (min-width:480px) and (max-width:767px){
-    display: inline-block;
-  }
+ 
+ 
   
   &__item:not(:first-child){
   margin-left: 10px;
