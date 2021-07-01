@@ -1,0 +1,45 @@
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+  @media (min-width:480px) {
+    padding-top: 16px;
+   margin-top: 16px;
+    margin-bottom: 16px;
+    
+  }
+ 
+
+
+  &__logo {
+    color: $secondary-color;
+    @include width-height(145px, 31px);
+
+    left: 215px;
+    top: 2157px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+  }
+
+  &__web-logo {
+    color: $akcent-color;
+    @include width-height(145px, 31px);
+    left: 215px;
+    top: 2157px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+  }
+}

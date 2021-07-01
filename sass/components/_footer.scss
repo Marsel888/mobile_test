@@ -1,0 +1,113 @@
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .header-navigation__logo--color{
+    color: white;
+  }
+  
+  .footer-list-mail-tel {
+    margin-top: 9px;
+  
+  &__tel-mail {
+    @extend %link;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 500;
+   
+    @include text-tyles(14px, 1.7);
+    letter-spacing: 0.03em;
+    padding-top: 9px;
+
+    @include width-height (231px, 21px);
+    transition: color 250ms $timing-function;
+  }
+  &__tel-mail:hover,
+  &__tel-mail:focus {
+    color: $akcent-color;
+  }
+}
+  .join{
+    color: $background-color-buttom;
+    font-style: normal;
+    font-weight: bold;
+    @include text-tyles(14px, 16px);
+    letter-spacing: 0.06em;
+  }
+  .icon-social-footer {
+    display: flex;
+    padding-top: 20px;
+  
+  &__list {
+@include width-height (40px, 40px);
+    margin-right: 10px;
+    
+  }
+
+  &__link-icon {
+    display: flex;
+   
+    @extend %flex-center;
+    transition: background-color 1000ms $timing-function;
+    border-radius: 50%;
+    background-color: #43444d;
+    &:focus,
+    &:hover{
+    background-color: $akcent-color;
+    
+  } 
+}
+  
+
+  
+  &__svg-icon {
+   @include width-height (20px, 20px);
+    fill: $background-color-buttom;
+    padding: 10px;
+  }
+
+}
+  .subscribe {
+    display: flex;
+    padding-top: 20px;
+  
+  &__input {
+    box-sizing: border-box;
+    @include width-height (358px, 50px);
+    border: 1px solid #6d6e75;
+    border-radius: 7px;
+  
+    background-color: $backgroung-secondary-color;
+    padding-left: 15px;
+    color: #ffffff;
+    outline: none;
+  }
+}
+footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+  background: #2f303a;
+}
+
+address {
+  padding-top: 20px;
+
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+
+
+  letter-spacing: 0.03em;
+
+  color: var(--background-color);
+}
