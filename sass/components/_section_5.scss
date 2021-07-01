@@ -7,6 +7,11 @@
     margin-top: 0;
     padding-bottom: 50px;
     margin-bottom: 0;
+    @media screen and (min-width: 480px) and (max-width: 767px){
+      // width: 100vw;
+      // text-align: center;
+      padding-top: 60px;
+    }
   }
   
   .our-clients-permanent {
@@ -14,10 +19,28 @@
     padding: 0;
     margin: 0;
     justify-content: space-between;
+    @media screen and (min-width: 480px) and (max-width: 767px){
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+   justify-content: center;
+   margin-bottom: 60px;
+ 
+      
+    }
   }
   .our-clients-permanent__client {
     content: '';
     fill: #afb1b8;
+    @media screen and (min-width: 480px) and (max-width: 767px){
+      
+     width: 210px;
+     margin: 10px 15px 0 10px;
+    
+
+     
+    }
+  
  
     @include width-height (170px,92px);
     border: 1px solid #afb1b8;
