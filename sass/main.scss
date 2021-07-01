@@ -26,21 +26,15 @@
 
 
 
-// .technologies__list {
-//   @media screen and (min-width:480px) and (max-width:650px) {
-//     width: 450px;
-//     img {
-//       width: 450px;
-//     }
+.technologies__list {
+  @media screen and (min-width:480px) and (max-width:767px) {
+    width: 450px;
+    img {
+      width: 450px;
+    }
     
-//   }
-// }
+  }
+}
 
 
 
-// .test_img{
-//   width: 270px;
-//   @media (min-width:480px) {
-    
-//   }
-// }
